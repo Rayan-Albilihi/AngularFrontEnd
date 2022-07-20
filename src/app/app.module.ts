@@ -1,16 +1,25 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
+import { StudentComponent } from './student/student.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
+
+const material = [
+  MatToolbarModule
+]
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    StudentComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    material
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [material]
 })
 export class AppModule { }

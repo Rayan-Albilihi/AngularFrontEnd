@@ -1,0 +1,27 @@
+mat-toolbar{
+    background-color: rgb(18, 18, 174);
+    color: aliceblue;
+    height: 50px;
+    align-items: center;
+} 
+.navbar{
+    justify-content: space-between;
+}
+
+span{
+    padding-right: 1rem;
+}
+
+.studentParagraph{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(0, 0, 142);
+    font-size: 30px;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.logo{
+    width: 35px;
+    height: 30px;
+}
