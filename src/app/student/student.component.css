@@ -1,4 +1,9 @@
-mat-toolbar{ 
+.card{
+    background-color:aliceblue
+}
+
+
+/* mat-toolbar{ 
     color: aliceblue;
     height: 50px;
     align-items: center;
@@ -23,7 +28,7 @@ span{
     text-align: center;
     margin-left: 10px;
     margin-top: 10px;
-    /* align-items: center; */
+    
     
 }
 .studentInfo{
@@ -31,6 +36,6 @@ span{
 }
 
 .logo{
-    /* width: auto; */
+    
     height: 30px;
-}
+} */
