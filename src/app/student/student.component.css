@@ -6,7 +6,7 @@ mat-toolbar{
 .navbar{
     justify-content: space-between;
     background-color: rgb(0, 0, 142);
-    height: 50px;
+    height: auto;
     align-items: center;
 }
 
@@ -14,20 +14,23 @@ span{
     padding-right: 1rem;
 }
 
-.studentParagraph{
-    width: 500px;
-    height: 100px;
+.studentCard{
+    width: 220px;
+    height: auto;
     background-color: rgb(0, 0, 142);
-    font-size: 30px;
     color: aliceblue;
     padding: 20px;
     text-align: center;
-    margin-left: 300px;
-    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    /* align-items: center; */
     
+}
+.studentInfo{
+    font-size: medium;
 }
 
 .logo{
-    width: 35px;
+    /* width: auto; */
     height: 30px;
 }
