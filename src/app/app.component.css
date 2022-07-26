@@ -1,0 +1,18 @@
+.nav-item{
+    font-weight: bold;
+    border-radius: 20px;
+    padding-right: 5px;
+}
+
+.nav-link{
+    font-weight: bold;
+    /* background-color: rgba(15, 48, 196, 0.532); */
+    border-radius: 20px;
+}
+
+.logo{
+    
+    height: 40px;
+    padding-left: 1rem;
+    padding-right: 10px;
+} 

@@ -1,0 +1,29 @@
+<div class ="container">
+  <div class = "card">
+      <h3 class="text-center"> students List</h3>
+      <div class = "card-body">
+          <table class="table table-striped">
+              <thead>
+                  <th> First Name</th>
+                  <th> Last Name</th>
+                  <th> Email </th>
+                  <th> actions </th>
+              </thead>
+              <tbody>
+                  <tr *ngFor = "let Student of studentArray">
+                      <td> {{ Student.firstName}}</td>
+                      <td> {{ Student.lastName}}</td>
+                      <td> {{ Student.email}}</td>
+                      <td>
+                        <div>
+                          <span><button class="btn btn-warning">update</button></span>
+                          <span><button class="btn btn-danger">Delete</button></span>
+                        </div>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+</div>
+

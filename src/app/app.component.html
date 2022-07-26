@@ -1,3 +1,19 @@
-<h3 class="text-center">Angular Spring boot REST API example</h3>
-<app-student></app-student>
+<!-- <app-student></app-student> -->
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class = "navbar-nav">
+      <img src="\assets\ELM.jpg" class="logo"> 
+        <li class = "nav-item">
+            <a [routerLink]="['student']" routerLinkActive="active" class="nav-link" >Student List</a>
+        </li>
+        <li class = "nav-item">
+            <a [routerLink]="['create-student']" routerLinkActive="active" class="nav-link" >Add Student</a>
+        </li>
+    </ul>
+  </nav>
+
+  <hr>
+  <h3 class="text-center">Angular Spring boot REST API example</h3>
+  <hr>
+<router-outlet></router-outlet>
+
 
